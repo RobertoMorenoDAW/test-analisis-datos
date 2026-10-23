@@ -907,7 +907,6 @@ const BBDD_PREGUNTAS = [
     ],
     "correcta": 0
   },
-  [
   {
     "tema": "Tema 1 Ampliación",
     "pregunta": "1.91. En una investigación se evalúa a una muestra aleatoria de 1600 ciudadanos españoles mayores de edad para conocer su opinión sobre el principal problema del país[cite: 15]. La población objeto de estudio de esta investigación es[cite: 15]:",
@@ -1408,6 +1407,6 @@ const BBDD_PREGUNTAS = [
     ],
     "correcta": 0
   }
-]
+
 
 ];
