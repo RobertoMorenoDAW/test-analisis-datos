@@ -27,6 +27,10 @@
 
             /* Aseguramos que el body no tenga scroll propio, lo gestionará el grid */
             height: 100vh;
+            /* En iPad/móvil 100vh incluye el espacio bajo las barras del navegador y
+               tapa el final del sidebar; 100dvh mide solo la zona realmente visible.
+               Si el navegador no lo soporta, se mantiene el 100vh de arriba. */
+            height: 100dvh;
             overflow: hidden;
         }
 
@@ -44,6 +48,8 @@
             /* --- MODIFICADO --- */
             /* Usamos height 100vh para que el 10vh/1fr funcione correctamente */
             height: 100vh;
+            /* Mismo motivo que en body: altura visible real en móviles/iPad */
+            height: 100dvh;
         }
 
         header {
@@ -363,6 +369,27 @@
             opacity: 0.8;
         }
 
+         /* Botón de repaso: mismo tamaño que "Volver al inicio" pero en naranja
+           para distinguirlo como acción secundaria */
+        #btn-review {
+            background-color: var(--color-pospuesto);
+            color: white;
+            font-weight: bold;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-right: 10px;
+            transition: all 0.2s;
+        }
+
+        #btn-review:hover {
+            opacity: 0.8;
+        }
+
+
         .hidden {
             display: none !important;
         }
@@ -425,10 +452,11 @@
 
     <div id="results-modal" class="modal">
         <div class="modal-content">
-            <h2>Resultados Finales</h2>
+            <h2 id="results-title">Resultados Finales</h2>
             <p id="results-summary"></p>
             <p id="results-score"></p>
             <h3 id="results-grade"></h3>
+            <button type="button" id="btn-review" class="hidden">Repasar falladas</button>
             <button type="button" id="btn-reset">Volver al inicio</button>
         </div>
     </div>
@@ -475,6 +503,9 @@
         let userStats = { correct: 0, incorrect: 0 };
         let questionStatus = []; // 'unanswered','correct','incorrect','postponed'
         let feedbackLock = false;
+        // true mientras se hace el test de repaso; evita ofrecer un segundo repaso
+        // encadenado y se reinicia al volver al inicio
+        let modoRepaso = false;
 
         // Selectores DOM
         const welcomeMsgEl = document.getElementById('welcome-message');
@@ -497,6 +528,8 @@
         const resultsScoreEl = document.getElementById('results-score');
         const resultsGradeEl = document.getElementById('results-grade');
         const btnReset = document.getElementById('btn-reset');
+        const btnReview = document.getElementById('btn-review');
+        const resultsTitleEl = document.getElementById('results-title');
 
         /* ---------------- Inicialización ---------------- */
         document.addEventListener('DOMContentLoaded', () => {
@@ -517,6 +550,7 @@
             btnNoAnswer.addEventListener('click', handleNoAnswer);
             btnEnd.addEventListener('click', handleEndTest);
             btnReset.addEventListener('click', resetQuiz);
+            btnReview.addEventListener('click', iniciarRepaso);
         });
 
         /* ---------------- Helpers UI ---------------- */
@@ -881,7 +915,47 @@
             resultsScoreEl.textContent = `Puntuación neta: ${rawScore.toFixed(2)} / ${maxScore.toFixed(2)} | Nota: ${notaFinal.toFixed(2)} / 10`;
             resultsGradeEl.textContent = grade;
 
+            resultsTitleEl.textContent = modoRepaso ? 'Resultados del repaso' : 'Resultados Finales';
+
+            // Solo cuentan como falladas las contestadas mal ('incorrect'); las dejadas
+            // en blanco o pospuestas no penalizan en el baremo y no entran al repaso.
+            const numFalladas = questionStatus.filter(s => s === 'incorrect').length;
+            if (!modoRepaso && numFalladas > 0) {
+                btnReview.textContent = `Repasar ${numFalladas} ${numFalladas === 1 ? 'fallada' : 'falladas'}`;
+                btnReview.classList.remove('hidden');
+            } else {
+                btnReview.classList.add('hidden');
+            }
+
             resultsModalEl.style.display = 'block';
+        }
+
+        /**
+         * Crea un test nuevo solo con las preguntas falladas del test que acaba de terminar.
+         * No se guarda nada: la lista sale de questionStatus, que se reinicia al volver
+         * al inicio, así que el siguiente test genera sus propios fallos desde cero.
+         */
+        function iniciarRepaso() {
+            const falladas = activeQuestions.filter((_, i) => questionStatus[i] === 'incorrect');
+            if (falladas.length === 0) return;
+
+            modoRepaso = true;
+
+            // Se vuelven a mezclar las opciones para no memorizar la posición de la correcta
+            activeQuestions = prepararPreguntasParaUso(falladas);
+
+            currentQuestionIndex = 0;
+            userStats = { correct: 0, incorrect: 0 };
+            questionStatus = new Array(activeQuestions.length).fill('unanswered');
+            feedbackLock = false;
+
+            document.getElementById('current-topic-name').textContent = 'Repaso de falladas';
+
+            resultsModalEl.style.display = 'none';
+
+            updateSidebar();
+            displayQuestion(currentQuestionIndex);
+            updateStats();
         }
 
         function resetQuiz() {
@@ -891,6 +965,7 @@
             sidebarListEl.innerHTML = '';
             correctCounterEl.textContent = 'Aciertos: 0';
             incorrectCounterEl.textContent = 'Fallos: 0';
+            modoRepaso = false;
             activeQuestions = [];
             questionStatus = [];
             currentQuestionIndex = 0;
