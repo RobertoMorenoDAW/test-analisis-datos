@@ -999,7 +999,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.100. En el intervalo informado 381 - 400 (con datos enteros, U = 1)[cite: 15], el valor del punto medio o marca de clase (PM) es[cite: 15]:",
+    "pregunta": "1.100. En el intervalo informado 381 - 400 (con datos enteros, U = 1), el valor del punto medio o marca de clase (PM) es:",
     "opciones": [
       "390,0",
       "390,5",
@@ -1009,7 +1009,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.101. En un experimento de laboratorio con animales, el tiempo que tarda una rata en alcanzar la salida de un laberinto actúa como[cite: 11]:",
+    "pregunta": "1.101. En un experimento de laboratorio con animales, el tiempo que tarda una rata en alcanzar la salida de un laberinto actúa como:",
     "opciones": [
       "variable independiente",
       "variable dependiente",
@@ -1019,7 +1019,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.102. Si en una investigación clínica se comparan cuatro tipos distintos de fármacos antidepresivos administrados a los grupos[cite: 11], la variable 'tipo de fármaco' es[cite: 11]:",
+    "pregunta": "1.102. Si en una investigación clínica se comparan cuatro tipos distintos de fármacos antidepresivos administrados a los grupos, la variable 'tipo de fármaco' es:",
     "opciones": [
       "cualitativa politómica",
       "cuasicuantitativa ordinal",
@@ -1029,7 +1029,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.103. En una investigación se recogen datos de una muestra sobre la variable 'lugar de nacimiento', registrando más de diez provincias españolas distintas[cite: 6]. Esta variable se clasifica como[cite: 6]:",
+    "pregunta": "1.103. En una investigación se recogen datos de una muestra sobre la variable 'lugar de nacimiento', registrando más de diez provincias españolas distintas. Esta variable se clasifica como:",
     "opciones": [
       "cualitativa dicotómica",
       "cualitativa politómica",
@@ -1039,7 +1039,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.104. Al registrar en una muestra la variable 'número de personas detenidas por delitos fiscales' en distintos municipios[cite: 6], su escala de medida es[cite: 6]:",
+    "pregunta": "1.104. Al registrar en una muestra la variable 'número de personas detenidas por delitos fiscales' en distintos municipios, su escala de medida es:",
     "opciones": [
       "nominal",
       "de intervalo",
@@ -1049,7 +1049,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.105. Si en un cuestionario una pregunta sobre presencia de acoso laboral solo admite las respuestas 'Sí' y 'No'[cite: 6], la variable resultante es[cite: 6]:",
+    "pregunta": "1.105. Si en un cuestionario una pregunta sobre presencia de acoso laboral solo admite las respuestas 'Sí' y 'No', la variable resultante es:",
     "opciones": [
       "politómica",
       "dicotómica",
@@ -1059,7 +1059,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.106. Para comparar de manera gráfica y precisa dos grupos que tienen tamaños muestrales diferentes (por ejemplo, n1 = 60 y n2 = 180) en una misma variable[cite: 16], en el eje de ordenadas es preceptivo utilizar[cite: 16]:",
+    "pregunta": "1.106. Para comparar de manera gráfica y precisa dos grupos que tienen tamaños muestrales diferentes (por ejemplo, n1 = 60 y n2 = 180) en una misma variable, en el eje de ordenadas es preceptivo utilizar:",
     "opciones": [
       "frecuencias absolutas simples",
       "frecuencias relativas (o porcentajes)",
@@ -1069,7 +1069,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.107. Al representar simultáneamente la distribución de dos variables cualitativas (por ejemplo, nivel de estudios y género) para comparar ambos grupos[cite: 4, 13], el gráfico adecuado es[cite: 4, 13]:",
+    "pregunta": "1.107. Al representar simultáneamente la distribución de dos variables cualitativas (por ejemplo, nivel de estudios y género) para comparar ambos grupos, el gráfico adecuado es:",
     "opciones": [
       "un diagrama de dispersión",
       "un diagrama de barras conjunto (adosadas o agrupadas)",
@@ -1079,7 +1079,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.108. Si un estudio sobre rendimiento académico extrae una muestra aleatoria y representativa de estudiantes de Secundaria de una sola Comunidad Autónoma[cite: 4, 13], sus conclusiones científicas[cite: 4, 13]:",
+    "pregunta": "1.108. Si un estudio sobre rendimiento académico extrae una muestra aleatoria y representativa de estudiantes de Secundaria de una sola Comunidad Autónoma, sus conclusiones científicas:",
     "opciones": [
       "pueden generalizarse a la población de Secundaria de dicha Comunidad Autónoma",
       "pueden generalizarse a toda la población escolar europea",
@@ -1089,7 +1089,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.109. ¿Cuál de las siguientes escalas de medida carece totalmente de un valor cero que represente ausencia total de la propiedad medida[cite: 1, 2, 4]?",
+    "pregunta": "1.109. ¿Cuál de las siguientes escalas de medida carece totalmente de un valor cero que represente ausencia total de la propiedad medida?",
     "opciones": [
       "la escala de razón",
       "la escala de intervalo",
@@ -1099,7 +1099,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.110. En una escala de medida de razón, si un sujeto registra un valor de 0 en la variable 'número de ausencias al puesto de trabajo', dicho cero indica[cite: 2, 3]:",
+    "pregunta": "1.110. En una escala de medida de razón, si un sujeto registra un valor de 0 en la variable 'número de ausencias al puesto de trabajo', dicho cero indica:",
     "opciones": [
       "un origen arbitrario fijado por convenio",
       "ausencia total o empírica de la propiedad evaluada",
@@ -1109,7 +1109,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.111. Si una distribución de frecuencias presenta su intervalo superior definido formalmente como '60 años o más', nos encontramos ante[cite: 2, 11]:",
+    "pregunta": "1.111. Si una distribución de frecuencias presenta su intervalo superior definido formalmente como '60 años o más', nos encontramos ante:",
     "opciones": [
       "un intervalo ficticio",
       "un intervalo abierto",
@@ -1119,7 +1119,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.112. En un diagrama circular o de sectores, la amplitud en grados sexagesimales de un sector correspondiente a una categoría que agrupa al 25% de la muestra es igual a[cite: 2]:",
+    "pregunta": "1.112. En un diagrama circular o de sectores, la amplitud en grados sexagesimales de un sector correspondiente a una categoría que agrupa al 25% de la muestra es igual a:",
     "opciones": [
       "25 grados",
       "90 grados",
@@ -1129,7 +1129,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.113. Si una categoría de una variable nominal reúne al 40% de los sujetos analizados en una muestra, ¿cuántos grados sexagesimales abarcará en un diagrama de sectores[cite: 2]?",
+    "pregunta": "1.113. Si una categoría de una variable nominal reúne al 40% de los sujetos analizados en una muestra, ¿cuántos grados sexagesimales abarcará en un diagrama de sectores?",
     "opciones": [
       "40 grados",
       "120 grados",
@@ -1139,7 +1139,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.114. La suma de todas las frecuencias absolutas simples (Σ ni) de una distribución de frecuencias coincide exactamente con[cite: 1, 2]:",
+    "pregunta": "1.114. La suma de todas las frecuencias absolutas simples (Σ ni) de una distribución de frecuencias coincide exactamente con:",
     "opciones": [
       "el número total de intervalos",
       "el tamaño total de la muestra (n)",
@@ -1149,7 +1149,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.115. Si en una muestra de n = 200 observaciones un intervalo tiene una frecuencia relativa pi = 0,18, el número absoluto de observaciones (ni) en ese intervalo es[cite: 2]:",
+    "pregunta": "1.115. Si en una muestra de n = 200 observaciones un intervalo tiene una frecuencia relativa pi = 0,18, el número absoluto de observaciones (ni) en ese intervalo es:",
     "opciones": [
       "18",
       "36",
@@ -1159,7 +1159,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.116. En una distribución ordenada con N = 80 sujetos, la frecuencia acumulada del tercer intervalo es na3 = 48. ¿Qué porcentaje de la muestra presenta puntuaciones iguales o inferiores al límite exacto superior de dicho intervalo[cite: 2]?",
+    "pregunta": "1.116. En una distribución ordenada con N = 80 sujetos, la frecuencia acumulada del tercer intervalo es na3 = 48. ¿Qué porcentaje de la muestra presenta puntuaciones iguales o inferiores al límite exacto superior de dicho intervalo?",
     "opciones": [
       "48%",
       "60%",
@@ -1169,7 +1169,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.117. Para una variable cualitativa medida en escala nominal (por ejemplo, 'Grupo sanguíneo': A, B, AB, 0), el índice descriptivo de tendencia central adecuado es[cite: 1, 6]:",
+    "pregunta": "1.117. Para una variable cualitativa medida en escala nominal (por ejemplo, 'Grupo sanguíneo': A, B, AB, 0), el índice descriptivo de tendencia central adecuado es:",
     "opciones": [
       "la media aritmética",
       "la moda",
@@ -1179,7 +1179,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.118. Para una variable cuantitativa continua agrupada en intervalos regulares de amplitud constante, el gráfico donde las áreas de los rectángulos son proporcionales a las frecuencias es[cite: 1, 2]:",
+    "pregunta": "1.118. Para una variable cuantitativa continua agrupada en intervalos regulares de amplitud constante, el gráfico donde las áreas de los rectángulos son proporcionales a las frecuencias es:",
     "opciones": [
       "el histograma",
       "el ciclograma",
@@ -1189,7 +1189,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.119. La disciplina estadística que se encarga de recoger, clasificar, resumir y representar visualmente las puntuaciones de un grupo observado se define como[cite: 2, 3]:",
+    "pregunta": "1.119. La disciplina estadística que se encarga de recoger, clasificar, resumir y representar visualmente las puntuaciones de un grupo observado se define como:",
     "opciones": [
       "Estadística Descriptiva",
       "Estadística Inferencial",
@@ -1199,7 +1199,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.120. La Estadística Inferencial se fundamenta obligatoriamente en[cite: 2, 3]:",
+    "pregunta": "1.120. La Estadística Inferencial se fundamenta obligatoriamente en:",
     "opciones": [
       "el cálculo de probabilidades para extrapolar resultados muestrales a la población",
       "la tabulación no numérica de variables cualitativas exclusivamente",
@@ -1209,7 +1209,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.121. La media calculada a partir de las puntuaciones de todos los individuos que componen una población completa es[cite: 2, 3]:",
+    "pregunta": "1.121. La media calculada a partir de las puntuaciones de todos los individuos que componen una población completa es:",
     "opciones": [
       "un estadístico muestral",
       "un parámetro poblacional",
@@ -1219,7 +1219,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.122. En una investigación se desea conocer el peso corporal (en kilogramos) de los neonatos ingresados en un hospital. La variable 'peso' es[cite: 2, 3]:",
+    "pregunta": "1.122. En una investigación se desea conocer el peso corporal (en kilogramos) de los neonatos ingresados en un hospital. La variable 'peso' es:",
     "opciones": [
       "cuantitativa continua",
       "cuantitativa discreta",
@@ -1229,7 +1229,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.123. Una variable como el 'número de cigarrillos consumidos al día por una persona fumadora' se clasifica formalmente como[cite: 2, 3]:",
+    "pregunta": "1.123. Una variable como el 'número de cigarrillos consumidos al día por una persona fumadora' se clasifica formalmente como:",
     "opciones": [
       "cuantitativa discreta",
       "cuantitativa continua",
@@ -1239,7 +1239,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.124. Si en una escala de medida los sujetos solo pueden ordenarse como 'primero', 'segundo' o 'tercero', pero desconocemos la distancia real entre ellos, la escala es[cite: 2, 3]:",
+    "pregunta": "1.124. Si en una escala de medida los sujetos solo pueden ordenarse como 'primero', 'segundo' o 'tercero', pero desconocemos la distancia real entre ellos, la escala es:",
     "opciones": [
       "nominal",
       "ordinal",
@@ -1249,7 +1249,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.125. Si los límites aparentes de un intervalo son 20 - 24 y la unidad de medida es el número entero (U = 1), la amplitud del intervalo (I) es[cite: 2, 3]:",
+    "pregunta": "1.125. Si los límites aparentes de un intervalo son 20 - 24 y la unidad de medida es el número entero (U = 1), la amplitud del intervalo (I) es:",
     "opciones": [
       "4",
       "5",
@@ -1259,7 +1259,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.126. Para el intervalo aparente 20 - 24 (con datos enteros, U = 1), el límite inferior exacto (LIE) y el límite superior exacto (LSE) son[cite: 2, 3]:",
+    "pregunta": "1.126. Para el intervalo aparente 20 - 24 (con datos enteros, U = 1), el límite inferior exacto (LIE) y el límite superior exacto (LSE) son:",
     "opciones": [
       "19,5 y 24,5",
       "20,0 y 24,0",
@@ -1269,7 +1269,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.127. Para una serie de intervalos consecutivos donde I = 5 y el primer intervalo tiene límites exactos 4,5 - 9,5, los límites exactos del siguiente intervalo son[cite: 2, 3]:",
+    "pregunta": "1.127. Para una serie de intervalos consecutivos donde I = 5 y el primer intervalo tiene límites exactos 4,5 - 9,5, los límites exactos del siguiente intervalo son:",
     "opciones": [
       "9,5 a 14,5",
       "10,0 a 15,0",
@@ -1279,7 +1279,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.128. En una distribución donde la media es arrastrada hacia valores bajos por la existencia de puntuaciones extremas inferiores, cumpliéndose Media < Mediana ≤ Moda, se observa[cite: 2, 3]:",
+    "pregunta": "1.128. En una distribución donde la media es arrastrada hacia valores bajos por la existencia de puntuaciones extremas inferiores, cumpliéndose Media < Mediana ≤ Moda, se observa:",
     "opciones": [
       "asimetría negativa",
       "asimetría positiva",
@@ -1289,7 +1289,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.129. Cuando la cola de la curva de frecuencias se prolonga hacia las puntuaciones altas de la derecha y la Media es mayor que la Mediana, la distribución presenta[cite: 2, 3]:",
+    "pregunta": "1.129. Cuando la cola de la curva de frecuencias se prolonga hacia las puntuaciones altas de la derecha y la Media es mayor que la Mediana, la distribución presenta:",
     "opciones": [
       "asimetría positiva",
       "asimetría negativa",
@@ -1299,7 +1299,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.130. Si en una investigación sobre memoria operativa se administra una prueba psicométrica estandarizada, la puntuación obtenida en el test se sitúa convencionalmente en escala[cite: 2, 3]:",
+    "pregunta": "1.130. Si en una investigación sobre memoria operativa se administra una prueba psicométrica estandarizada, la puntuación obtenida en el test se sitúa convencionalmente en escala:",
     "opciones": [
       "de intervalo",
       "de razón",
@@ -1309,7 +1309,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.131. El proceso sistemático que consiste en asignar símbolos o números a características de personas o entidades siguiendo pautas normativas precisas se denomina[cite: 2, 3]:",
+    "pregunta": "1.131. El proceso sistemático que consiste en asignar símbolos o números a características de personas o entidades siguiendo pautas normativas precisas se denomina:",
     "opciones": [
       "medición",
       "estimación",
@@ -1319,7 +1319,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.132. Si una propiedad de los sujetos bajo estudio permanece fija y no adopta modalidades distintas a lo largo de toda la investigación, constituye[cite: 2, 3]:",
+    "pregunta": "1.132. Si una propiedad de los sujetos bajo estudio permanece fija y no adopta modalidades distintas a lo largo de toda la investigación, constituye:",
     "opciones": [
       "una constante",
       "una variable ordinal",
@@ -1329,7 +1329,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.133. La proporción relativa (pi) asociada a una modalidad de una variable siempre satisface la condición matemática[cite: 2, 3]:",
+    "pregunta": "1.133. La proporción relativa (pi) asociada a una modalidad de una variable siempre satisface la condición matemática:",
     "opciones": [
       "estar comprendida obligatoriamente en el rango entre 0 y 1",
       "ser un número entero estrictamente mayor que 1",
@@ -1339,7 +1339,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.134. En una tabla de distribución de frecuencias para variables agrupadas, la marca de clase o punto medio (PM) se calcula mediante[cite: 2, 3]:",
+    "pregunta": "1.134. En una tabla de distribución de frecuencias para variables agrupadas, la marca de clase o punto medio (PM) se calcula mediante:",
     "opciones": [
       "(LIE + LSE) / 2",
       "(LSE - LIE) * 2",
@@ -1349,7 +1349,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.135. En una variable con datos dados al centésimo (U = 0,01), para el valor observado X = 5,42 sus límites exactos son[cite: 2, 15]:",
+    "pregunta": "1.135. En una variable con datos dados al centésimo (U = 0,01), para el valor observado X = 5,42 sus límites exactos son:",
     "opciones": [
       "5,415 a 5,425",
       "5,410 a 5,430",
@@ -1359,7 +1359,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.136. Si un intervalo aparente está delimitado como 40 - 49 (U = 1), el número total de unidades enteras que contiene dicho intervalo es[cite: 2, 3]:",
+    "pregunta": "1.136. Si un intervalo aparente está delimitado como 40 - 49 (U = 1), el número total de unidades enteras que contiene dicho intervalo es:",
     "opciones": [
       "9",
       "10",
@@ -1369,7 +1369,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.137. ¿Cuál de los siguientes gráficos resulta totalmente inadecuado para representar datos de una variable cualitativa nominal sin orden[cite: 2, 3]?",
+    "pregunta": "1.137. ¿Cuál de los siguientes gráficos resulta totalmente inadecuado para representar datos de una variable cualitativa nominal sin orden?",
     "opciones": [
       "un histograma con barras continuas adosadas en límites reales",
       "un diagrama de barras separadas",
@@ -1379,7 +1379,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.138. En una distribución unimodal simétrica en forma de campana, las medidas de tendencia central presentan la siguiente relación teórica[cite: 2, 3]:",
+    "pregunta": "1.138. En una distribución unimodal simétrica en forma de campana, las medidas de tendencia central presentan la siguiente relación teórica:",
     "opciones": [
       "Media ≈ Mediana ≈ Moda",
       "Media < Mediana < Moda",
@@ -1389,7 +1389,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.139. Si en una investigación sobre eficacia terapéutica se mide el número de sesiones a las que asiste cada paciente hasta obtener el alta médica, dicha variable es[cite: 2, 3]:",
+    "pregunta": "1.139. Si en una investigación sobre eficacia terapéutica se mide el número de sesiones a las que asiste cada paciente hasta obtener el alta médica, dicha variable es:",
     "opciones": [
       "cuantitativa discreta en escala de razón",
       "cuantitativa continua en escala de intervalo",
@@ -1399,7 +1399,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.140. Cuando se asignan códigos numéricos 1 = Primaria, 2 = Secundaria y 3 = Universidad para indicar el nivel formativo de los participantes[cite: 4, 13], los números reflejan[cite: 4, 13]:",
+    "pregunta": "1.140. Cuando se asignan códigos numéricos 1 = Primaria, 2 = Secundaria y 3 = Universidad para indicar el nivel formativo de los participantes, los números reflejan:",
     "opciones": [
       "únicamente una relación de jerarquía u orden entre categorías",
       "igualdad estricta de distancias cuantitativas entre niveles",
