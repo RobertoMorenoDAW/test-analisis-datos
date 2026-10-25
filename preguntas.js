@@ -909,7 +909,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.91. En una investigación se evalúa a una muestra aleatoria de 1600 ciudadanos españoles mayores de edad para conocer su opinión sobre el principal problema del país[cite: 15]. La población objeto de estudio de esta investigación es[cite: 15]:",
+    "pregunta": "1.91. En una investigación se evalúa a una muestra aleatoria de 1600 ciudadanos españoles mayores de edad para conocer su opinión sobre el principal problema del país. La población objeto de estudio de esta investigación es:",
     "opciones": [
       "los 1600 ciudadanos encuestados",
       "la población española mayor de edad",
@@ -919,7 +919,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.92. Si en una encuesta realizada a una muestra de 1600 ciudadanos el 52,5% opina que el desempleo es el principal problema del país, dicho porcentaje (52,5%) es el valor de[cite: 15]:",
+    "pregunta": "1.92. Si en una encuesta realizada a una muestra de 1600 ciudadanos el 52,5% opina que el desempleo es el principal problema del país, dicho porcentaje (52,5%) es el valor de:",
     "opciones": [
       "un parámetro",
       "un estadístico",
@@ -929,7 +929,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.93. Las variables dicotómicas se caracterizan formalmente porque[cite: 2, 15]:",
+    "pregunta": "1.93. Las variables dicotómicas se caracterizan formalmente porque:",
     "opciones": [
       "solo admiten dos categorías o valores posibles",
       "admiten tres o más categorías ordenadas",
@@ -939,7 +939,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.94. En una distribución de frecuencias agrupada en intervalos, los puntos medios (marcas de clase) consecutivos son 11, 14, 17, 20 y 23[cite: 15]. La amplitud (I) de dichos intervalos es igual a[cite: 15]:",
+    "pregunta": "1.94. En una distribución de frecuencias agrupada en intervalos, los puntos medios (marcas de clase) consecutivos son 11, 14, 17, 20 y 23. La amplitud (I) de dichos intervalos es igual a:",
     "opciones": [
       "2",
       "3",
@@ -949,7 +949,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.95. Para un intervalo de una variable continua (U = 1) cuyo punto medio es PM = 11 y su amplitud es I = 3, los límites exactos de dicho intervalo son[cite: 15]:",
+    "pregunta": "1.95. Para un intervalo de una variable continua (U = 1) cuyo punto medio es PM = 11 y su amplitud es I = 3, los límites exactos de dicho intervalo son:",
     "opciones": [
       "9,5 a 12,5",
       "10,0 a 12,0",
@@ -959,7 +959,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.96. Si en una muestra de 150 participantes las frecuencias acumuladas de los tres primeros intervalos son na1 = 15, na2 = 36 y na3 = 87[cite: 11, 15], la frecuencia relativa simple (pi) del tercer intervalo es[cite: 15]:",
+    "pregunta": "1.96. Si en una muestra de 150 participantes las frecuencias acumuladas de los tres primeros intervalos son na1 = 15, na2 = 36 y na3 = 87, la frecuencia relativa simple (pi) del tercer intervalo es:",
     "opciones": [
       "0,34",
       "0,58",
@@ -969,7 +969,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.97. Si deseamos calcular los límites exactos para una puntuación observada de 18,56 registrada con dos cifras decimales (unidad de medida U = 0,01), dichos límites son[cite: 15]:",
+    "pregunta": "1.97. Si deseamos calcular los límites exactos para una puntuación observada de 18,56 registrada con dos cifras decimales (unidad de medida U = 0,01), dichos límites son:",
     "opciones": [
       "18,55 a 18,56",
       "18,555 a 18,565",
@@ -979,7 +979,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.98. En una tarea psicofísica se cronometra el tiempo de reacción en milisegundos que tarda un sujeto en pulsar una tecla[cite: 2, 15]. Esta variable dependiente se encuentra en una escala de medida[cite: 2, 15]:",
+    "pregunta": "1.98. En una tarea psicofísica se cronometra el tiempo de reacción en milisegundos que tarda un sujeto en pulsar una tecla. Esta variable dependiente se encuentra en una escala de medida:",
     "opciones": [
       "ordinal",
       "de intervalo",
@@ -989,7 +989,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.99. Para una distribución agrupada en intervalos donde una de las clases aparentes es 381 - 400 (con U = 1 ms)[cite: 15], los límites exactos correspondientes son[cite: 15]:",
+    "pregunta": "1.99. Para una distribución agrupada en intervalos donde una de las clases aparentes es 381 - 400 (con U = 1 ms), los límites exactos correspondientes son:",
     "opciones": [
       "380,5 a 400,5",
       "380,0 a 401,0",
