@@ -809,7 +809,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.81. En un estudio sobre el estrés en el ámbito laboral, los participantes son clasificados en tres grupos según su sector: 'Sanidad', 'Educación' e 'Industria'. Esta variable está medida en una escala[cite: 1, 2]:",
+    "pregunta": "1.81. En un estudio sobre el estrés en el ámbito laboral, los participantes son clasificados en tres grupos según su sector: 'Sanidad', 'Educación' e 'Industria'. Esta variable está medida en una escala:",
     "opciones": [
       "ordinal",
       "nominal",
@@ -819,7 +819,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.82. La proporción acumulada (pa) correspondiente al último intervalo o categoría superior de una distribución de frecuencias es siempre igual a[cite: 2]:",
+    "pregunta": "1.82. La proporción acumulada (pa) correspondiente al último intervalo o categoría superior de una distribución de frecuencias es siempre igual a:",
     "opciones": [
       "1,00",
       "100",
@@ -829,7 +829,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.83. ¿Cuál de las siguientes variables constituye un ejemplo de variable cuasicuantitativa u ordinal[cite: 1, 2]?",
+    "pregunta": "1.83. ¿Cuál de las siguientes variables constituye un ejemplo de variable cuasicuantitativa u ordinal?",
     "opciones": [
       "Puesto obtenido en una carrera de velocidad (1º, 2º, 3º)",
       "Número de pulsaciones por minuto en reposo",
@@ -839,7 +839,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.84. Si los límites exactos de un intervalo de clase son 19,5 y 29,5, la amplitud (I) de dicho intervalo es igual a[cite: 2, 8]:",
+    "pregunta": "1.84. Si los límites exactos de un intervalo de clase son 19,5 y 29,5, la amplitud (I) de dicho intervalo es igual a:",
     "opciones": [
       "9",
       "10",
@@ -849,7 +849,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.85. En una distribución de frecuencias con una muestra de 80 participantes, si un intervalo tiene una frecuencia absoluta ni = 16, su porcentaje correspondiente (Pi) es[cite: 2]:",
+    "pregunta": "1.85. En una distribución de frecuencias con una muestra de 80 participantes, si un intervalo tiene una frecuencia absoluta ni = 16, su porcentaje correspondiente (Pi) es:",
     "opciones": [
       "16%",
       "20%",
@@ -859,7 +859,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.86. El tipo de representación gráfica más idóneo para reflejar las frecuencias acumuladas de una variable cuantitativa continua agrupada en intervalos es[cite: 1, 2]:",
+    "pregunta": "1.86. El tipo de representación gráfica más idóneo para reflejar las frecuencias acumuladas de una variable cuantitativa continua agrupada en intervalos es:",
     "opciones": [
       "el polígono de frecuencias acumuladas (ojiva)",
       "el diagrama de sectores circular",
@@ -869,7 +869,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.87. Para la variable 'nivel socioeconómico' codificada como Bajo = 1, Medio = 2 y Alto = 3, la asignación de números refleja relaciones de[cite: 1, 2]:",
+    "pregunta": "1.87. Para la variable 'nivel socioeconómico' codificada como Bajo = 1, Medio = 2 y Alto = 3, la asignación de números refleja relaciones de:",
     "opciones": [
       "orden y equivalencia de intervalos numéricos",
       "únicamente igualdad y orden jerárquico",
@@ -879,7 +879,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.88. Si un investigador registra el número de hijos que tiene cada familia en una muestra de 50 hogares, la variable analizada es[cite: 2, 10]:",
+    "pregunta": "1.88. Si un investigador registra el número de hijos que tiene cada familia en una muestra de 50 hogares, la variable analizada es:",
     "opciones": [
       "cuantitativa discreta en escala de razón",
       "cuantitativa continua en escala de intervalo",
@@ -889,7 +889,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.89. Si una variable continua presenta medidas redondeadas al número entero (U = 1) y el intervalo aparente es 50 - 59, su punto medio o marca de clase (PM) es[cite: 2, 8]:",
+    "pregunta": "1.89. Si una variable continua presenta medidas redondeadas al número entero (U = 1) y el intervalo aparente es 50 - 59, su punto medio o marca de clase (PM) es:",
     "opciones": [
       "54",
       "54,5",
@@ -899,7 +899,7 @@ const BBDD_PREGUNTAS = [
   },
   {
     "tema": "Tema 1 Ampliación",
-    "pregunta": "1.90. En un estudio sobre memoria de trabajo, la media obtenida en la muestra se simboliza como un estadístico mediante letras[cite: 2, 8]:",
+    "pregunta": "1.90. En un estudio sobre memoria de trabajo, la media obtenida en la muestra se simboliza como un estadístico mediante letras:",
     "opciones": [
       "latinas, como X̄",
       "griegas, como μ",
@@ -907,7 +907,6 @@ const BBDD_PREGUNTAS = [
     ],
     "correcta": 0
   },
-  [
   {
     "tema": "Tema 1 Ampliación",
     "pregunta": "1.91. En una investigación se evalúa a una muestra aleatoria de 1600 ciudadanos españoles mayores de edad para conocer su opinión sobre el principal problema del país[cite: 15]. La población objeto de estudio de esta investigación es[cite: 15]:",
@@ -1408,6 +1407,6 @@ const BBDD_PREGUNTAS = [
     ],
     "correcta": 0
   }
-]
+
 
 ];
