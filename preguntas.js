@@ -6,6 +6,607 @@
 const BBDD_PREGUNTAS = [
     // --- BLOQUE 1: EJERCICIOS RESUELTOS (1.1 a 1.25) ---
     {
+    "tema": "Unidad 2",
+    "pregunta": "2.1. ¿Cuál de los siguientes es un índice de tendencia central?",
+    "opciones": ["La varianza", "La media aritmética", "El rango intercuartílico"],
+    "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.2. La media aritmética se define fundamentalmente como:",
+      "opciones": ["El valor que más se repite en la muestra", "El centro de gravedad de la distribución de frecuencias", "El valor situado exactamente en el percentil 25"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.3. En el cálculo de la media para datos agrupados en intervalos, ¿qué representa Xi?",
+      "opciones": ["La frecuencia absoluta del intervalo", "El límite inferior exacto", "El punto medio o marca de clase del intervalo"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.4. Cuando los datos no están agrupados en intervalos, Xi representa:",
+      "opciones": ["Los valores individuales o categorías que toma la variable", "El número de sujetos acumulados", "La amplitud del intervalo"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.5. Una propiedad fundamental de la media aritmética establece que la suma de las desviaciones de todos los valores respecto a su media es igual a:",
+      "opciones": ["Uno", "Cero", "N (el tamaño muestral)"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.6. Si a todos los valores de una variable X se les suma una constante 'a' (Y = X + a), la media de la nueva variable Y es:",
+      "opciones": ["La media de X multiplicada por a", "La media de X más la constante a", "Exactamente igual a la media de X"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.7. Si a todos los valores de una variable X se les multiplica por una constante 'b' (Y = b · X), la nueva media aritmética será:",
+      "opciones": ["b multiplicada por la media de X", "La media de X dividida entre b", "Invariable"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.8. Ante una transformación lineal del tipo Y = b · X + a, la media de Y es:",
+      "opciones": ["Media(Y) = b + a · Media(X)", "Media(Y) = b · Media(X) + a", "Media(Y) = Media(X)"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.9. La suma de los cuadrados de las desviaciones de las puntuaciones respecto a la media aritmética es:",
+      "opciones": ["Máxima", "Mínima", "Cero"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.10. ¿Qué principal desventaja presenta la media aritmética frente a la mediana?",
+      "opciones": ["No utiliza todos los datos de la distribución", "Es muy sensible a valores extremos o atípicos (outliers)", "No permite realizar transformaciones algebraicas"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.11. ¿Se puede calcular la media aritmética si la distribución tiene intervalos abiertos en los extremos?",
+      "opciones": ["Sí, calculando la mediana de esos intervalos", "No, porque no se puede calcular el punto medio de un intervalo abierto", "Sí, asignándoles frecuencia cero"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.12. La mediana es aquel valor de la variable que deja por debajo de sí al:",
+      "opciones": ["25% de los datos", "50% de los datos", "75% de los datos"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.13. Si disponemos de un número impar de datos ordenados (por ejemplo: 3, 5, 8, 9, 12), la mediana es:",
+      "opciones": ["5", "8", "7,4"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.14. Si disponemos de un número par de datos ordenados (por ejemplo: 2, 4, 6, 8), la mediana se calcula como:",
+      "opciones": ["El valor 4", "La semisuma de los dos valores centrales: (4 + 6) / 2 = 5", "El valor 6"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.15. ¿A qué percentil equivale exactamente la mediana?",
+      "opciones": ["Percentil 25", "Percentil 50", "Percentil 100"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.16. ¿Con qué decil y cuartil coincide el percentil 50?",
+      "opciones": ["D5 y Q2", "D2 y Q1", "D5 y Q3"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.17. Para localizar el intervalo crítico en el cálculo de la mediana con datos agrupados, se busca en las frecuencias acumuladas el valor que contiene a:",
+      "opciones": ["n / 4", "n / 2", "3n / 4"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.18. En la fórmula de cálculo de la mediana e índices de posición, Li representa:",
+      "opciones": ["El límite inferior exacto o real del intervalo crítico", "El límite superior aparente", "La frecuencia acumulada"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.19. En la fórmula de la mediana y percentiles, nd representa:",
+      "opciones": ["El número total de sujetos", "La frecuencia acumulada por debajo del intervalo crítico", "La frecuencia absoluta del intervalo crítico"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.20. La moda de una distribución se define como:",
+      "opciones": ["El promedio ponderado de los datos", "El valor o categoría con mayor frecuencia absoluta", "El valor central una vez ordenados los datos"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.21. Una distribución que presenta dos puntuaciones no consecutivas con la frecuencia más alta se denomina:",
+      "opciones": ["Amodal", "Unimodal", "Bimodal"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.22. Si en una distribución todas las puntuaciones tienen exactamente la misma frecuencia absoluta, la distribución es:",
+      "opciones": ["Amodal (carece de moda)", "Unimodal", "Multimodal"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.23. Si los datos están agrupados en intervalos, la moda se aproxima mediante:",
+      "opciones": ["La frecuencia acumulada del intervalo", "El punto medio o marca de clase del intervalo modal", "El límite inferior exacto"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.24. ¿Cuál es el único índice de tendencia central aplicable a variables medidas en escala nominal?",
+      "opciones": ["La media", "La mediana", "La moda"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.25. Para variables medidas en escala ordinal, el índice de tendencia central más idóneo es:",
+      "opciones": ["La media aritmética", "La mediana", "La varianza"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.26. ¿Qué índice de tendencia central es más adecuado cuando la distribución es marcadamente asimétrica o contiene valores extremos atípicos?",
+      "opciones": ["La media aritmética", "La mediana", "La media geométrica"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.27. En una distribución perfectamente simétrica y unimodal, la relación entre media, mediana y moda es:",
+      "opciones": ["Media > Mediana > Moda", "Media = Mediana = Moda", "Moda > Mediana > Media"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.28. En una distribución con asimetría positiva (sesgada a la derecha), habitualmente se cumple que:",
+      "opciones": ["Media > Mediana > Moda", "Moda > Mediana > Media", "Media = Mediana = Moda"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.29. En una distribución con asimetría negativa (sesgada a la izquierda), habitualmente se cumple que:",
+      "opciones": ["Media > Mediana > Moda", "Moda > Mediana > Media", "Media < Mediana < Moda"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.30. Los percentiles son valores que dividen la distribución de frecuencias en:",
+      "opciones": ["4 partes iguales", "10 partes iguales", "100 partes iguales"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.31. ¿Cuántos percentiles distintos se pueden calcular en una distribución continua?",
+      "opciones": ["99", "100", "101"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.32. ¿Cuántos cuartiles dividen la distribución en 4 partes iguales?",
+      "opciones": ["3 cuartiles", "4 cuartiles", "2 cuartiles"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.33. ¿Cuántos deciles dividen la distribución en 10 partes iguales?",
+      "opciones": ["10 deciles", "9 deciles", "8 deciles"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.34. El primer cuartil (Q1) deja por debajo de sí al:",
+      "opciones": ["10% de las observaciones", "25% de las observaciones", "50% de las observaciones"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.35. El tercer cuartil (Q3) equivale exactamente al percentil:",
+      "opciones": ["P30", "P75", "P85"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.36. El decil 7 (D7) equivale al percentil:",
+      "opciones": ["P7", "P70", "P75"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.37. ¿Es un percentil un porcentaje?",
+      "opciones": ["Sí, son conceptos idénticos", "No, el percentil es un valor concreto de la escala de la variable", "Sí, siempre se expresa con el símbolo %"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.38. Si una persona obtiene una puntuación directa correspondiente al Percentil 80 (P80), esto significa que:",
+      "opciones": ["Ha respondido correctamente al 80% del examen", "Supera al 80% de los sujetos de su grupo de referencia", "El 80% de los sujetos obtiene una puntuación superior a la suya"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.39. En la fórmula general para calcular el Percentil k: Pk = Li + I · ((k·n/100 - nd) / nc), ¿qué representa 'nc'?",
+      "opciones": ["La frecuencia acumulada de la distribución", "La frecuencia absoluta del intervalo crítico", "El número total de sujetos"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.40. En la fórmula del Percentil k, 'I' representa:",
+      "opciones": ["La amplitud del intervalo crítico", "El índice de asimetría", "El percentil buscado"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.41. Si en una muestra de 5 sujetos las notas son 4, 6, 6, 7 y 7, la media es:",
+      "opciones": ["5,5", "6,0", "6,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.42. En la muestra de notas [4, 6, 6, 7, 7], la distribución es:",
+      "opciones": ["Unimodal con moda 6", "Bimodal con modas 6 y 7", "Amodal"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.43. Si la media de un examen es 5 y el profesor decide sumar 1,5 puntos a cada alumno, la nueva media será:",
+      "opciones": ["5,0", "6,5", "7,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.44. Si la media de un test es 20 y multiplicamos cada puntuación directa por 1,2, la nueva media es:",
+      "opciones": ["20", "21,2", "24"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.45. Dada la transformación Y = 3·X - 2, si la media de X es 10, ¿cuál es la media de Y?",
+      "opciones": ["28", "30", "32"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.46. ¿Qué ocurre con la mediana si a todos los valores de la variable se les suma una constante 'c'?",
+      "opciones": ["No se altera", "Queda sumada por la constante c", "Se multiplica por c"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.47. El concepto de 'puntuación diferencial' (x = X - Media) tiene como media siempre:",
+      "opciones": ["Uno", "Cero", "La varianza"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.48. Para calcular la media ponderada de dos grupos combinados se requiere conocer:",
+      "opciones": ["Solo la suma de las medias", "La media y el tamaño muestral (n) de cada grupo", "Únicamente el rango de cada grupo"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.49. Si el grupo 1 tiene n1 = 10 con media 5, y el grupo 2 tiene n2 = 10 con media 7, la media combinada es:",
+      "opciones": ["5,5", "6,0", "6,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.50. Si el grupo 1 tiene n1 = 10 con media 4, y el grupo 2 tiene n2 = 30 con media 8, la media ponderada total es:",
+      "opciones": ["6,0", "7,0", "7,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.51. Al calcular percentiles con pocos datos sin agrupar, la amplitud de cada intervalo (I) se asume formalmente como:",
+      "opciones": ["0", "1", "0,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.52. Si el valor de la variable es 7 (número entero discreto), sus límites exactos son:",
+      "opciones": ["6 y 8", "6,5 y 7,5", "6,9 y 7,1"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.53. En una distribución acumulada, el porcentaje de casos comprendido entre el percentil 25 y el percentil 75 es exactamente el:",
+      "opciones": ["25%", "50%", "75%"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.54. El rango o recorrido intercuartílico se define como la distancia entre:",
+      "opciones": ["Q3 y Q1", "Q4 y Q1", "Q3 y Q2"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.55. Los índices de posición como los percentiles requieren como mínimo una escala de medida:",
+      "opciones": ["Nominal", "Ordinal", "De razón exclusivamente"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.56. Si un estudiante obtiene una puntuación correspondiente al Decil 3 (D3), el porcentaje de sujetos con puntuación superior a la suya es:",
+      "opciones": ["30%", "70%", "3%"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.57. Para calcular la media a partir de frecuencias relativas (pi), se utiliza la expresión:",
+      "opciones": ["Suma de (Xi / pi)", "Suma de (Xi · pi)", "Suma de (pi) / N"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.58. Si en una variable cualitativa nominal las frecuencias son: Opción A = 12, Opción B = 25, Opción C = 8, la moda es:",
+      "opciones": ["25", "Opción B", "Opción A"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.59. El percentil que deja por encima de sí al 10% de los sujetos es el:",
+      "opciones": ["P10", "P90", "P99"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.60. El cuartil que deja por encima de sí al 75% de las observaciones es:",
+      "opciones": ["Q1", "Q2", "Q3"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.61. En el cálculo de la media, ¿se ven afectados los resultados si se multiplica cada puntuación por 0?",
+      "opciones": ["La media resultante es 0", "La media no cambia", "Es una operación no permitida"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.62. Cuando calculamos percentiles a partir de un histograma, el área total de las barras representa:",
+      "opciones": ["La media de la muestra", "El número total de sujetos o el 100% de los datos", "El recorrido intercuartílico"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.63. ¿Qué medida de tendencia central divide el histograma de frecuencias en dos áreas de igual superficie?",
+      "opciones": ["La media", "La mediana", "La moda"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.64. La media aritmética es el punto de apoyo donde la suma de momentos o desviaciones:",
+      "opciones": ["Se anula (centro de gravedad físico)", "Es máxima", "Es igual a la desviación típica"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.65. En una muestra con valores [1, 2, 3, 4, 100], la medida de tendencia central más representativa es:",
+      "opciones": ["La media aritmética (22)", "La mediana (3)", "El rango"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.66. Si ordenamos los datos de mayor a menor en vez de menor a mayor, el cálculo de las frecuencias acumuladas para percentiles debe:",
+      "opciones": ["Acumularse siempre desde los valores menores hacia los mayores", "Acumularse desde arriba sin importar el orden", "Multiplicarse por -1"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.67. El percentil de orden cero (P0) y el percentil cien (P100):",
+      "opciones": ["Se calculan habitualmente con la fórmula estándar", "No se definen como percentiles formales ya que dividen 99 puntos", "Son equivalentes a la media"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.68. Para despejar el percentil (k) al que corresponde una puntuación conocida X, la fórmula utilizada es:",
+      "opciones": ["k = (100 / n) · [nd + ((X - Li) · nc / I)]", "k = (n / 100) · [Li + nd]", "k = (X - Media) / Desviación"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.69. En una distribución con intervalos de diferente amplitud, la moda debe buscarse en el intervalo con mayor:",
+      "opciones": ["Frecuencia absoluta simple", "Densidad de frecuencia (ni / I)", "Frecuencia acumulada"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.70. ¿Cuál de las siguientes afirmaciones sobre la mediana es VERDADERA?",
+      "opciones": ["Utiliza en su cálculo el valor algebraico de todas las observaciones", "No se ve afectada si modificamos el valor del dato máximo extremo", "Solo se puede calcular para variables cualitativas nominales"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.71. Si en una muestra de 10 sujetos todos obtienen una puntuación de 8, la media y la varianza de las puntuaciones son respectivamente:",
+      "opciones": ["8 y 8", "8 y 0", "0 y 8"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.72. Si multiplicamos cada valor por -1, la nueva media aritmética:",
+      "opciones": ["Permanece positiva", "Cambia de signo respecto a la original", "Se vuelve cero"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.73. ¿En qué nivel de medida se encuentra autorizado el cálculo de la media aritmética?",
+      "opciones": ["Nominal", "Ordinal", "Intervalo y de razón"],
+      "correcta": 2
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.74. Al calcular la mediana para datos agrupados en intervalos, si n/2 coincide exactamente con la frecuencia acumulada del intervalo inferior, la mediana es:",
+      "opciones": ["El punto medio del intervalo", "El límite exacto común entre ambos intervalos", "Cero"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.75. Si el Decil 5 de una distribución es 40, podemos afirmar con certeza que:",
+      "opciones": ["La media es 40", "La mediana es 40", "La moda es 40"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.76. Si el Percentil 25 es 15 y el Percentil 75 es 35, el recorrido semi-intercuartílico ((Q3 - Q1)/2) vale:",
+      "opciones": ["20", "10", "25"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.77. La mediana es un caso particular de percentil correspondiente a:",
+      "opciones": ["k = 25", "k = 50", "k = 75"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.78. ¿Qué representa 'k · n / 100' en la fórmula de posición?",
+      "opciones": ["El orden o número de caso acumulado correspondiente a dicho percentil", "El valor exacto de la variable", "La amplitud total"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.79. Si en una muestra de 200 sujetos queremos hallar el percentil 40, el valor acumulado de búsqueda (k·n/100) es:",
+      "opciones": ["40", "80", "100"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.80. En una distribución unimodal simétrica con media = 50, ¿cuánto valen la mediana y la moda?",
+      "opciones": ["Mediana = 50 y Moda = 50", "Mediana = 25 y Moda = 50", "No se puede saber sin las frecuencias"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.81. Si una distribución tiene una media de 30 y una mediana de 20, la forma de la distribución es predominantemente:",
+      "opciones": ["Simétrica", "Asimétrica positiva", "Asimétrica negativa"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.82. Si una distribución tiene una media de 18 y una mediana de 24, la forma de la distribución tiende a ser:",
+      "opciones": ["Asimétrica negativa", "Asimétrica positiva", "Simétrica perfecta"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.83. ¿Por qué se prefiere calcular la media con datos sin agrupar cuando es posible?",
+      "opciones": ["Porque el punto medio del intervalo es una aproximación que introduce error", "Porque la fórmula sin agrupar es más compleja", "Porque con intervalos no se puede calcular la media"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.84. La suma de las frecuencias absolutas simples de una distribución (∑ ni) es igual a:",
+      "opciones": ["Uno", "El tamaño total de la muestra (n)", "100"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.85. La suma de las frecuencias relativas simples de una distribución (∑ pi) es igual a:",
+      "opciones": ["n", "1 (o 100 si son porcentajes)", "0"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.86. En una tabla de intervalos [10-19], [20-29], los límites exactos del primer intervalo son:",
+      "opciones": ["10 y 19", "9,5 y 19,5", "10,5 y 18,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.87. Para el intervalo de límites exactos 9,5 a 19,5, la amplitud (I) es:",
+      "opciones": ["9", "10", "19,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.88. Para el intervalo con límites exactos 9,5 y 19,5, el punto medio (Xi) es:",
+      "opciones": ["14", "14,5", "15"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.89. Si conocemos las frecuencias acumuladas na, la frecuencia absoluta del intervalo k (nk) se obtiene mediante:",
+      "opciones": ["na(k) + na(k-1)", "na(k) - na(k-1)", "na(k) / n"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.90. El percentil 90 deja por debajo de sí al:",
+      "opciones": ["10% de los sujetos", "90% de los sujetos", "99% de los sujetos"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.91. ¿Qué percentil coincide con el decil 2 (D2)?",
+      "opciones": ["Percentil 2", "Percentil 20", "Percentil 25"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.92. ¿Qué percentil coincide con el decil 8 (D8)?",
+      "opciones": ["Percentil 8", "Percentil 80", "Percentil 88"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.93. Si una puntuación individual es idéntica a la media de su grupo, su puntuación diferencial es:",
+      "opciones": ["1", "0", "Indeterminada"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.94. En una distribución trimodal existen:",
+      "opciones": ["Tres modas distintas", "Tres valores consecutivos de baja frecuencia", "Una moda dividida entre tres"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.95. Si en una distribución de frecuencias agrupada en intervalos el intervalo con mayor frecuencia absoluta es [20 - 24] (límites exactos 19,5 - 24,5), la moda es:",
+      "opciones": ["20", "22", "24,5"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.96. Si en una muestra se duplica cada puntuación y luego se resta 4, la nueva media se calcula como:",
+      "opciones": ["Media anterior - 4", "2 · (Media anterior) - 4", "2 · (Media anterior)"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.97. Un percentil informa principalmente sobre:",
+      "opciones": ["La dispersión absoluta de la muestra", "La posición relativa de un individuo respecto a su grupo de referencia", "La forma geométrica del sesgo"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.98. La propiedad que establece que ∑ (Xi - Media) = 0 se cumple:",
+      "opciones": ["Solo en distribuciones simétricas", "En cualquier conjunto de datos numéricos cuantitativos", "Únicamente si no hay valores repetidos"],
+      "correcta": 1
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.99. Al comparar dos sujetos de grupos diferentes, los índices de posición como los percentiles permiten:",
+      "opciones": ["Comparar su rendimiento relativo independientemente de las unidades de medida originales", "Sumar directamente sus puntuaciones directas", "Calcular la covarianza entre grupos"],
+      "correcta": 0
+    },
+    {
+      "tema": "Unidad 2",
+      "pregunta": "2.100. En un conjunto de datos donde la variable es el estado civil (soltero, casado, viudo, divorciado), la medida de tendencia central apropiada es:",
+      "opciones": ["La media", "La mediana", "La moda"],
+      "correcta": 2
+    },
+    
+    {
         "tema": "Unidad 1",
         "pregunta": "1.1. El proceso por el cual se asignan números a objetos o características según determinadas reglas se denomina:",
         "opciones": [
